@@ -1,0 +1,19 @@
+
+.landing-section {
+  height: 100vh;
+  max-width: 100%;
+  background-image: url("./assets/images/leather-table.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.landing-section img {
+  width: 100%;
+}
+
+
+
+
+
+
