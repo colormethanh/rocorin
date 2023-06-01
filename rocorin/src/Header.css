@@ -49,7 +49,30 @@
   top: 0;
 }
 
+.line {
+  stroke: white;
+  fill: none;
+  stroke-miterlimit: 10;
+  stroke-width: 3px;
+}
 
+#top-bar,
+#middle-bar,
+#bottom-bar {
+  stroke-dasharray: 56 113;
+  stroke-dashoffset: 170;
+}
+
+#arrow-left,
+#arrow-right {
+  stroke-dasharray: 30 55;
+  stroke-dashoffset: 116;
+}
+
+#arrow-stem {
+  stroke-dasharray: 30 35;
+  stroke-dashoffset: 160;
+}
 
 
 @media screen AND (min-width: 800 ) {
